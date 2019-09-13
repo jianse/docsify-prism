@@ -41,6 +41,13 @@ window.$docsify={
     ```
 !> 使用`customClass` 改变类名将导致Prism提供的主题不可用
 
+!> 已知的docsify版本存在一个类冲突, `body`上的`content` 类 与 `markdown` 代码块链接的`content`冲突, 导致代码块渲染异常<br>如下:
+```markdown
+[link](/foo)
+[otherlink](/bar)
+```
+位于链接内容的方括号中的内容错位
+
 ## 示例场景 - 自动加载
 
 1. 添加 `Prism` `autoloader`插件到`index.html`中
