@@ -1,0 +1,21 @@
+{
+  "name": "docsify-prism",
+  "version": "1.0.0",
+  "description": "More flexible use of prism in docsify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack -w --mode develoment"
+  },
+  "keywords": [
+    "docsify",
+    "prismjs"
+  ],
+  "author": "jianse",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.40.1",
+    "webpack-cli": "^3.3.8"
+  }
+}
